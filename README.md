@@ -2,6 +2,6 @@
 
 Developer: Teshome Yalew
 
-Technologies: React.js
+Technologies: Next.js
 
 
