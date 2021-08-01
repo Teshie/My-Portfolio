@@ -52,7 +52,7 @@ const Technologies = () => (
           <ListParagraph>
             Experience with
             <br />
-            Express.js, Node.js, MongoDB
+            Express.js, Node.js, Firebase
           </ListParagraph>
         </ListContainer>
       </ListItem>
