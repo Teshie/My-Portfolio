@@ -19,9 +19,7 @@ const Hero = (props) => (
       <SectionText>
         Hi, I am Teshome. I design and build user interfaces.
       </SectionText>
-      <Button onClick={() => (window.location = "https://www.google.com")}>
-        Learn More
-      </Button>
+      <Button onClick={"#about"}>Learn More</Button>
     </LeftSection>
   </Section>
 );
