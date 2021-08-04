@@ -31,7 +31,11 @@ const Hero = (props) => (
       </Link>
     </LeftSection>
     <RightSection>
-      <Img src="https://www.lunapic.com/editor/premade/transparent.gif" />
+      <Img
+        src="https://www.lunapic.com/editor/premade/transparent.gif"
+        height="100"
+        width="30"
+      />
     </RightSection>
   </Section>
 );
