@@ -67,7 +67,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am self thought web developer proficient with MERN stack development
+        I am a self thought web developer, I solve your problems
       </SectionText>
       <CarouselContainer ref={carouselRef}>
         <>
