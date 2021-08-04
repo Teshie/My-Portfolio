@@ -1,7 +1,8 @@
 export const projects = [
   {
     title: "Slack Clone",
-    description: "Hello",
+    description:
+      "This is a slack clone project built React, Redux, Firebase, Material UI.",
     image: "https://i.ytimg.com/vi/UhXZHrXkuKU/maxresdefault.jpg",
     tags: ["React", "Material Design", "Redux", "Firebase"],
     source:
@@ -12,18 +13,18 @@ export const projects = [
   {
     title: "Amazone Clone",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio.",
+      "This is a slack clone project built React, Redux, Firebase, Material UI.",
     image:
       "https://codesource.io/wp-content/uploads/2020/09/Build-Amazon-Clone-with-React-950x500.png",
     tags: ["React", "Firebase", "Context API"],
-    source: "https://github.com/Teshie/amazon-clone",
-    visit: "http://amazone-cloone.herokuapp.com/",
+    source: "http://amazone-cloone.herokuapp.com/",
+    visit: "https://github.com/Teshie/amazon-clone",
     id: 1,
   },
   {
     title: "Linkedin Clone",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      "This is a slack clone project built React, Redux, Firebase, Material UI.",
     image: "https://i.ytimg.com/vi/NxozFN0tc48/maxresdefault.jpg",
     tags: ["React", "Redux", "Firebase", "Material Design"],
     source: "https://google.com",
@@ -33,7 +34,7 @@ export const projects = [
   {
     title: "Unichat",
     description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+      "This is a slack clone project built React, Redux, Firebase, Material UI.",
     image: "/images/4.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://google.com",
