@@ -8,6 +8,12 @@ import {
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
+import styled from "styled-components";
+
+const Section = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -24,6 +30,9 @@ const Hero = (props) => (
         <Button>Learn More</Button>
       </Link>
     </LeftSection>
+    <RightSection>
+      <Img src="https://www.lunapic.com/editor/premade/transparent.gif" />
+    </RightSection>
   </Section>
 );
 
