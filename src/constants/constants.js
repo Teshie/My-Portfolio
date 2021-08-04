@@ -21,11 +21,11 @@ export const projects = [
     id: 1,
   },
   {
-    title: "WebRTC App",
+    title: "Linkedin Clone",
     description:
       "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
+    image: "https://i.ytimg.com/vi/NxozFN0tc48/maxresdefault.jpg",
+    tags: ["React", "Redux", "Firebase", "Material Design"],
     source: "https://google.com",
     visit: "https://google.com",
     id: 2,
