@@ -1,5 +1,6 @@
 import React from "react";
-
+import Link from "next/link";
+import { NavLink } from "../Header/HeaderStyles";
 import {
   Section,
   SectionText,
@@ -19,7 +20,9 @@ const Hero = (props) => (
       <SectionText>
         Hi, I am Teshome. I design and build user interfaces.
       </SectionText>
-      <Button onClick={"#about"}>Learn More</Button>
+      <Link href="#projects">
+        <Button>Learn More</Button>
+      </Link>
     </LeftSection>
   </Section>
 );

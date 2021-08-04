@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "Slack Clone",
     description: "Hello",
-    image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
+    image: "https://i.ytimg.com/vi/UhXZHrXkuKU/maxresdefault.jpg",
+    tags: ["React", "Material Design", "Redux", "Firebase"],
     source:
       "https://codesource.io/wp-content/uploads/2020/09/Build-Amazon-Clone-with-React-950x500.png",
     visit: "https://google.com",
@@ -13,7 +13,8 @@ export const projects = [
     title: "E-Commerce",
     description:
       "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio.",
-    image: "/images/1.png",
+    image:
+      "https://codesource.io/wp-content/uploads/2020/09/Build-Amazon-Clone-with-React-950x500.png",
     tags: ["React", "JavaScript"],
     source: "https://google.com",
     visit: "https://google.com",
