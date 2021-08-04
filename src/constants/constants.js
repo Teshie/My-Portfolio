@@ -10,14 +10,14 @@ export const projects = [
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Amazone Clone",
     description:
       "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio.",
     image:
       "https://codesource.io/wp-content/uploads/2020/09/Build-Amazon-Clone-with-React-950x500.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["React", "Firebase", "Context API"],
+    source: "https://github.com/Teshie/amazon-clone",
+    visit: "http://amazone-cloone.herokuapp.com/",
     id: 1,
   },
   {

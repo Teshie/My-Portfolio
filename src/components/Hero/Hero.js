@@ -20,7 +20,7 @@ const Hero = (props) => (
       <SectionText>
         Hi, I am Teshome. I design and build user interfaces.
       </SectionText>
-      <Link href="#projects">
+      <Link href="#about">
         <Button>Learn More</Button>
       </Link>
     </LeftSection>
