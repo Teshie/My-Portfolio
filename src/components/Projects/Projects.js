@@ -1,5 +1,10 @@
 import React from "react";
-
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
 import {
   BlogCard,
   CardInfo,
@@ -42,8 +47,10 @@ const Projects = () => (
                 </TagList>
               </div>
               <UtilityList>
-                <ExternalLinks href={visit}>Code</ExternalLinks>
-                <ExternalLinks href={source}>Source</ExternalLinks>
+                <ExternalLinks href={visit}>
+                  <AiFillGithub />
+                </ExternalLinks>
+                <ExternalLinks href={source}>View Site</ExternalLinks>
               </UtilityList>
             </TitleContent>
           </BlogCard>
