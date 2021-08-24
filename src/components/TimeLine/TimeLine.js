@@ -67,7 +67,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a self thought web developer, I solve your problems
+        I help designers, small agencies and businesses bring their ideas to
+        life. Powered by Figma, VS Code and coffee, I turn your requirements
+        into CMS-ified and ecommerce-ified websites - on time and on budget.
       </SectionText>
       <CarouselContainer ref={carouselRef}>
         <>
