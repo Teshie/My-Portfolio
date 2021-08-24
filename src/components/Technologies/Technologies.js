@@ -34,7 +34,7 @@ const Technologies = () => (
         <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>React.js</ListParagraph>
+          <ListParagraph>React.js, Next.js, Redux</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>

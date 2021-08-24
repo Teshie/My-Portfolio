@@ -47,10 +47,10 @@ const Projects = () => (
                 </TagList>
               </div>
               <UtilityList>
-                <ExternalLinks href={visit}>
+                <ExternalLinks href={source}>
                   <AiFillGithub />
                 </ExternalLinks>
-                <ExternalLinks href={source}>View Site</ExternalLinks>
+                <ExternalLinks href={visit}>View Site</ExternalLinks>
               </UtilityList>
             </TitleContent>
           </BlogCard>

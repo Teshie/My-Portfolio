@@ -5,6 +5,7 @@ import {
   Section,
   SectionText,
   SectionTitle,
+  SectionTitleStack,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
@@ -13,13 +14,11 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle>
-        Welcome to
+        Hi, I am Teshome
         <br />
-        My Personal Portfolio
       </SectionTitle>
-      <SectionText>
-        Hi, I am Teshome. I design and build user interfaces.
-      </SectionText>
+      <SectionTitleStack>Full Stack Developer</SectionTitleStack>
+      <SectionText>I turn problems into usable solutions.</SectionText>
       <Link href="#about">
         <Button>Learn More</Button>
       </Link>
