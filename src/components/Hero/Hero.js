@@ -17,7 +17,7 @@ const Hero = (props) => (
         Hi, I am Teshome
         <br />
       </SectionTitle>
-      <SectionTitleStack>Full Stack Developer</SectionTitleStack>
+      <SectionTitleStack>React.JS Developer</SectionTitleStack>
       <SectionText>I turn problems into usable solutions.</SectionText>
       <Link href="#about">
         <Button>Learn More5tr</Button>
