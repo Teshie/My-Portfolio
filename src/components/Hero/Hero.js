@@ -20,7 +20,7 @@ const Hero = (props) => (
       <SectionTitleStack>Full Stack Developer</SectionTitleStack>
       <SectionText>I turn problems into usable solutions.</SectionText>
       <Link href="#about">
-        <Button>Learn More</Button>
+        <Button>Learn More5tr</Button>
       </Link>
     </LeftSection>
   </Section>
