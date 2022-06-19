@@ -10,6 +10,16 @@ export const projects = [
     id: 0,
   },
   {
+    title: "Linkedin Clone",
+    description:
+      "This is a linkedin clone project built React, Redux, Firebase, Material UI.",
+    image: "https://i.ytimg.com/vi/NxozFN0tc48/maxresdefault.jpg",
+    tags: ["React", "Redux", "Firebase", "Material Design"],
+    source: "https://github.com/Teshie/linkedin-clone",
+    visit: "https://github.com/Teshie/linkedin-clone",
+    id: 2,
+  },
+  {
     title: "The NewYork Times Clone",
     description:
       "This is a The NewYork Times Clone project built React, Redux, Firebase, Material UI.",
@@ -20,16 +30,7 @@ export const projects = [
     visit: "https://gracetemitope.github.io/Positioning-project/",
     id: 1,
   },
-  {
-    title: "Linkedin Clone",
-    description:
-      "This is a linkedin clone project built React, Redux, Firebase, Material UI.",
-    image: "https://i.ytimg.com/vi/NxozFN0tc48/maxresdefault.jpg",
-    tags: ["React", "Redux", "Firebase", "Material Design"],
-    source: "https://github.com/Teshie/linkedin-clone",
-    visit: "https://github.com/Teshie/linkedin-clone",
-    id: 2,
-  },
+
   {
     title: "Tribute Page",
     description: "This is a Tribute page made using HTML5, CSS and JavaScript",

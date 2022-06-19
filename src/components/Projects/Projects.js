@@ -24,7 +24,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
-
+import { motion } from "framer-motion";
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
@@ -32,28 +32,27 @@ const Projects = () => (
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
-          <BlogCard key={id}>
-            <Img src={image} />
-            <TitleContent>
-              <HeaderThree title>{title}</HeaderThree>
-              <Hr />
-              <CardInfo>{description}</CardInfo>
-              <div>
-                <TitleContent>Stack</TitleContent>
-                <TagList>
-                  {tags.map((tag, i) => (
-                    <Tag key={i}>{tag}</Tag>
-                  ))}
-                </TagList>
-              </div>
-              <UtilityList>
-                <ExternalLinks href={source}>
-                  <AiFillGithub />
-                </ExternalLinks>
-                <ExternalLinks href={visit}>View Site</ExternalLinks>
-              </UtilityList>
-            </TitleContent>
-          </BlogCard>
+          <motion.div
+            key={id}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+          >
+            <BlogCard>
+              <Img src={image} />
+              <TitleContent>
+                <HeaderThree title>{title}</HeaderThree>
+                <Hr />
+                <CardInfo>{description}</CardInfo>
+
+                <UtilityList>
+                  <ExternalLinks href={source}>
+                    <AiFillGithub />
+                  </ExternalLinks>
+                  <ExternalLinks href={visit}>View Site</ExternalLinks>
+                </UtilityList>
+              </TitleContent>
+            </BlogCard>
+          </motion.div>
         )
       )}
     </GridContainer>
